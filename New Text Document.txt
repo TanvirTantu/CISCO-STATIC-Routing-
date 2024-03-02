@@ -1,0 +1,14 @@
+Static Route : 
+Router 1:
+Router(config)#ip route 11.0.0.0 255.0.0.0 10.0.0.2
+Router(config)#ip route 14.0.0.0 255.0.0.0 10.0.0.2
+Router(config)#ip route 13.0.0.0 255.0.0.0 10.0.0.2
+
+Router 2:
+Router(config)#ip route 12.0.0.0 255.0.0.0 10.0.0.1
+Router(config)#ip route 14.0.0.0 255.0.0.0 11.0.0.2
+
+Router 3:
+Router(config)#ip route 10.0.0.0 255.0.0.0 11.0.0.1
+Router(config)#ip route 12.0.0.0 255.0.0.0 11.0.0.1
+Router(config)#ip route 13.0.0.0 255.0.0.0 11.0.0.1
